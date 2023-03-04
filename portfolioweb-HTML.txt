@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <title>Personal Portfolio Webpage</title>
+  </head>
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list" id="menu-list">
+        <li><a id="list-link" href="#welcome-section">About</a></li>
+        <li><a id="list-link" href="#projects">Work</a></li>
+        <li><a id="list-link" href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="welcome-section" id="welcome-section">
+        <h1 id="himessage">Hi, I'm Gian</h1>
+        <p id="mytitle">a Software Engineer</p>
+    </section>
+    <section class="projects-section" id="projects">
+      <h2 id="projects-header">My work</h2>
+      <div class="projects-grid">
+        <a class="project-tile" id="quote-gen" href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank">
+          <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png">
+          <p class="tile-title"><span class="code"><</span> Random Quote Generator <span class="code">/ ></span></p>
+        </a>
+        <a class="project-tile" id="wiki-view" href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank">
+          <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png">
+          <p class="tile-title"><span class="code"><</span> Wikipedia Viewer <span class="code">/ ></span></p>
+        </a>
+        <a class="project-tile" id="tic-tac-toe" href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank">
+          <img class="ttt-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png">
+          <p class="tile-title"><span class="code"><</span> Tic-Tac-Toe <span class="code">/ ></span></p>
+        </a>
+      </div>
+      <div id="more-button" class="button">
+        <a id="profile-link" href="https://www.freecodecamp.org/gianlucamb9" target="_blank">See my fCC profile</a></div>
+    </section>
+    <section class="contact-section" id="contact-section">
+      <div class="contact-header">
+        <h1>Let's work together...</h1>
+        <p>I'm pretty good at this</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.freecodecamp.org/gianlucamb9" target="_blank">
+          <i class="fab fa-free-code-camp"></i> freeCodeCamp
+        </a>
+        <a href="https://github.com/gianlucamb9" target="_blank">
+          <i class="fab fa-github"></i> Github
+        </a>
+        <a href="mailto:gianlucamb9@gmail.com">
+          <i class="fas fa-at"></i> Email
+        </a>
+      </div>
+    </section>
+    <footer>
+      <p><em>Gianluca's portoflio, 2023</em></p>
+    </footer>
+  </body>
+</html>

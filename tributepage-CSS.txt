@@ -1,0 +1,57 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #eee;
+}
+
+#img-div {
+  background: white;
+  padding 10px;
+  margin: 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin: 15px 0px 5px 0px;
+  padding: 0 0 15 0;
+}
+
+h2 {
+  margin: 45px 45px;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 45px auto;
+  text-align: left;
+}
+
+li {
+  margin: 25px auto;
+}
+
+#quote {
+  padding: 15px 40px 0;
+}
+
+#quote-author {
+  padding: 0 40px;
+
+}
+
+#pm-quote {
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto 45px auto;
+}
+
+h3 {
+  padding: 20px;
+}

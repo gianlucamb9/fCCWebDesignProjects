@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>fCC Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required /></label>
+      <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required /></label>
+      <label id="number-label">Age (optional)<input id="number" type="number" min="13" max="99" placeholder="Enter your age" /></label>
+    </fieldset>
+    <fieldset>
+      <label id="current-role">Which option best describes your current role?
+        <select  id="dropdown">
+          <option value="">Select current role</option>
+          <option value="1">Student</option>
+          <option value="2">Full-time Job</option>
+          <option value="3">Other</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label id="recommend">Would you recommend freeCodeCamp to a friend?</label>
+      <label id="definitely"><input id="definitely" type="radio" value="definitely" name="recommendation" class="inline">Definitely</label>
+      <label id="maybe"><input id="maybe" type="radio" value="maybe" name="recommendation" class="inline">Maybe</label>
+      <label id="not-sure"><input id="not-sure" type="radio" value="not-sure" name="recommendation" class="inline">Not sure</label>
+    </fieldset>
+    <fieldset>
+      <label id="fav-feature">What is your favourite feature of freeCodeCamp?</label>
+      <label for="front-end"><input id="front-end" type="checkbox" value="front-end" class="inline">Front-End Projects</label>
+      <label for="back-end"><input id="back-end" type="checkbox" value="back-end" class="inline">Back-End Projects</label>
+      <label for="data"><input id="data" type="checkbox" value="data" class="inline">Data Visualization</label>
+    </fieldset>
+    <fieldset>
+      <label>Any comments or suggestions?</label>
+        <textarea id="suggestions" name="suggestions" rows="5"cols="50"></textarea>
+    </fieldset>
+    <input type="submit" id="submit">
+  </form>
+</html>

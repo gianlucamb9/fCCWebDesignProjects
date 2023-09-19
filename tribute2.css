@@ -1,0 +1,111 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the header section */
+#headsection {
+    background-color: #a80000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#tributetitle {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* Styling for the images section */
+#imagessection {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#imagesdiv {
+    gap: 20px;
+    display: inline-flex;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+/* Styling for the about section */
+#aboutsection {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+#aboutmxdiv {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Styling for the media section */
+#mediasection {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#mediadiv {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the FontAwesome icon */
+.fa-solid {
+    color: #e80000;
+    font-size: 36px;
+}
+
+
+/* Styling for the audio player */
+#audiodiv {
+    text-align: center;
+    margin: 20px 0;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Keyframe animation for shaking icon */
+.fa-solid:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
